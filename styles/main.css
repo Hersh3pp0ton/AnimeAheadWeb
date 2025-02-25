@@ -71,3 +71,8 @@ button img {
   padding: 5px;
 }
 
+.anime-info-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
