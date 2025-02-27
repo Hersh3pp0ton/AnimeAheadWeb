@@ -1,4 +1,8 @@
 let confirmButton = document.querySelector(".confirm-search");
+let italianButton = document.querySelector(".italian");
+let englishButton = document.querySelector(".english");
+let spanishButton = document.querySelector(".spanish");
+let frenchButton = document.querySelector(".french");
 
 confirmButton.addEventListener("click", () => {
     let searchInput = document.querySelector(".searchbar-input");
@@ -13,3 +17,4 @@ confirmButton.addEventListener("click", () => {
         console.log(error);
     });
 });
+
